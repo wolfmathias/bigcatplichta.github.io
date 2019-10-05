@@ -1,11 +1,11 @@
 # Site settings
 author: Matt Plichta
-title: 
+title: The Pillars of Creation
 header-img: img/home-bg.png
 email: bigcatplichta@gmail.com
 copyright_name: Matt Plichta
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Creating my life by creating code
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  bigcatplichta
