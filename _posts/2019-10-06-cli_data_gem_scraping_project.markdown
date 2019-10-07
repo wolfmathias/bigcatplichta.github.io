@@ -16,7 +16,7 @@ This project uses 5 separate objects that work off eachother: The CLI interface 
 
 Once the index page of animals was scraped to gather names and profile URLs, that hash of information was iterated over to create a local variable `profile`. 
 
-![](https://imgur.com/M4QuRZt.jpg)
+![](https://imgur.com/v5y4tti)
 
 For each profile, an array of keys (attribute names) and values (paragraph information) were created by mapping over the CSS selectors `"h3"` and `"h3 = *"`, respectively.. While the paragraph information usually resided in a paragraph class on the profile page, a few profiles used unordered lists and list item for select info. Therefor, it was best to use the 'any class' selector of `*` and grab the sibling classes next to my `h3` classes.
 
@@ -26,8 +26,8 @@ Each item in the arrays were then assigned to each other to create a hash. After
 
 This list of hashes is then sent to the 'Animal' object to create new instances of that class and set each attribute.
 
-![](https://imgur.com/6w3SZ1T.jpg)
-![](https://imgur.com/iXC3Nth.jpg)
+![](https://imgur.com/6w3SZ1T)
+![](https://imgur.com/iXC3Nth)
 
 A 'Donor' object created on initialization of the CLI interface. When a new ToyBrowser::CLI is instantiated, a user is prompted to enter their name. The name is then sent to the 'Donor' class method `find_or_create_by_name(name)`. This method's purpose is clearly stated, it will create a new instance of 'Donor' unless an instance with that name is already found, then this is returned and set as the CLI's `:user` attribute.
 
