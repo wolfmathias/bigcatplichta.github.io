@@ -9,9 +9,6 @@ permalink:  cli_data_gem_scraping_project
 The base concept of this CLI project is the foundation for a larger project I plan on submitting as my final portfolio project, and a web app that will be a new functional fundraising method for The WildHeart Foundation. The concept boilds down to "A website where you can buy toys for zoo animals anywhere in the world."
 
 
-Note: This blog includes pictures. However, Learn.co's blog platform is not displaying them.
-
-
 The first requirement for the project is a data scraper using Nokogiri and Open URI. A scraper will most likely not be utilized in the final product, but was a fun challenge and an opportunity to display what I've learn about it.
 
 While each instance of the 'Animal' class was generated dynamically by scraping a web page, the 'Toy' instances were created manually. In order to keep the program clean and relevant, I essentially hand picked each toy and its information. Websites for zoo animal enrichment are few while having an immense catalog of products, and many of those products have options such as size or color.
